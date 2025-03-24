@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/login"
+
+    android:gravity="center"
+    tools:context=".Logins">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"/>
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/Lavender"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAlignment="center"
+            android:fontFamily="@font/fonts"
+
+            android:textColor="@color/black"
+            android:textSize="65dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:id="@+id/loginemail"
+            android:drawableStart="@drawable/baseline_face_24"
+            android:background="@drawable/customedit"
+            android:hint="Email"
+            android:layout_marginTop="40dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="40dp"
+
+            android:id="@+id/loginuser"
+            android:drawableStart="@drawable/baseline_block_24"
+            android:background="@drawable/customedit"
+            android:hint="Username"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:id="@+id/loginname"
+            android:drawableStart="@drawable/baseline_face_24"
+            android:background="@drawable/customedit"
+            android:hint="Name"
+            android:layout_marginTop="40dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="40dp"
+
+            android:id="@+id/loginpassword"
+            android:drawableStart="@drawable/baseline_block_24"
+            android:background="@drawable/customedit"
+            android:hint="Password"
+            android:drawablePadding="8dp"
+            android:textColor="@color/black"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"        android:fontFamily="@font/fonts"
+
+            android:text="Login"
+            android:id="@+id/loginbutton"
+            android:layout_marginTop="30dp"
+
+            android:textSize="50sp"
+            android:textColor="@color/Lavender"
+            android:backgroundTint="@color/white"
+            app:cornerRadius ="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupredirect"
+            android:text="Not Yet Registered? Sign up."
+            android:layout_gravity="center"
+            android:fontFamily="@font/fonts"
+
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

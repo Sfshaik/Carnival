@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1003850545073",
+    "project_id": "gogo-4675c",
+    "storage_bucket": "gogo-4675c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003850545073:android:696627c4a6059e28442f90",
+        "android_client_info": {
+          "package_name": "com.example.gogo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCknnyiy5rWcMye_23yI0GOKUOoBodgJjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

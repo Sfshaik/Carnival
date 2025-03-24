@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/simsin"
+    android:layout_height="match_parent"
+    tools:context=".Sims">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/electric"
+        android:layout_width="264dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="124dp"
+        android:src="@drawable/elect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/momentum"
+        android:layout_width="216dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/momentum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/electric" />
+
+    <ImageView
+        android:id="@+id/pen"
+        android:layout_width="183dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/pen"
+        app:layout_constraintEnd_toStartOf="@+id/force"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/momentum" />
+
+    <ImageView
+        android:id="@+id/spring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/spring"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/force"
+        android:layout_width="168dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/force"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/momentum" />
+
+    <TextView
+        android:id="@+id/simstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="75dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/fonts"
+        android:text="Simulations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
